@@ -30,7 +30,7 @@
       "Divante/CartSync/registration.php"
     ],
     "psr-4": {
-      "Divante\\CartSync\\": ""
+      "Divante\\CartSync\\": "Divante/CartSync"
     }
   }
 }
