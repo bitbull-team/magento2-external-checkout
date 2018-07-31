@@ -135,7 +135,7 @@ class Sync extends Action
             $this->sync->synchronizeCustomerCart($this->customerSession->getCustomerId(), $cartId);
         }
 
-        return $this->resultRedirectFactory->create()->setPath('checkout/cart');
+        return $this->resultRedirectFactory->create()->setPath('checkout/');
     }
 
     /**
